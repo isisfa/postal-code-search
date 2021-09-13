@@ -1,0 +1,22 @@
+{
+    "name": "isisfa/search-zipcode",
+    "description": "Busca morada a partir do codigo postal",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Isisfa\\SearchZipcode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "isisfa",
+            "email": "isis.falves@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.7"
+    }
+}
